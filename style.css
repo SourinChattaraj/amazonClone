@@ -1,0 +1,352 @@
+* {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.top-head {
+    height: 4rem;
+    background-color: #131921;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1rem;
+    position: sticky;
+}
+
+.main-content {
+    height: 100vh;
+    overflow: auto;
+}
+
+.a-logo {
+    height: 1.7rem;
+}
+
+.search {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search form {
+    display: flex;
+    width: 100%;
+    max-width: 850px;
+}
+
+.search-input {
+    width: 100%;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 5px 0 0 5px;
+}
+
+.search-button {
+    padding: 0.5rem 1rem;
+    background-color: #febd69;
+    border: none;
+    cursor: pointer;
+    border-radius: 0 5px 5px 0;
+}
+
+.search-button i {
+    color: #131921;
+    font-size: 1rem;
+}
+
+.personal-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:0 1rem 0 1rem;
+}
+.location-dot{
+    margin-left: 3rem;
+}
+.cart i{
+    font-size: 2rem;
+}
+.personal-info .p2{
+    font-weight: 700;
+    font-size: 0.9rem;
+}
+.personal-info .p1{
+    font-size: 0.9rem;
+}
+.nav-bar{
+    height: 2.5rem;
+    width: 100%;
+    background-color: #232F3E;
+    display: flex;
+    color: white;
+    align-items: center;
+    /* justify-content: space-around; */
+
+}
+.ham-burger{
+    height: 1.25rem;
+}
+.navbar-element{
+    margin:0 1rem 0 1rem ;
+    cursor: pointer;
+}
+.menu{
+    display: flex;
+    align-items: center;
+}
+.ham-burger{
+    padding-right: 0.4rem;
+}
+.drop{
+    display: flex;
+    align-items: center;
+}
+.drop i{
+    margin-left: 0.2rem;
+    opacity: 0.5;
+    font-size: 13px;
+}
+.new-nav-bar{
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 0.5px solid rgba(128, 128, 128, 0.301);
+    
+}
+.new-nav-bar .heading{
+    font-size: 1.4rem;
+    font-weight: 600;
+    /* padding-left: 2rem; */
+    cursor: pointer;
+}
+.new-nav-bar .heading-side{
+    font-size: 0.77rem;
+    cursor: pointer;
+}
+.new-nav-bar .heading-side:hover{
+    border-bottom: 2px solid orange;
+}
+.fashion{
+    height: 13rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.fashion .items{
+    height: 100%;
+    width: 11rem;
+    cursor: pointer;
+    padding-top: 1.5rem;
+}
+.fashion .items img{
+    width: 9rem;
+    /* padding: 1rem 0.5rem 0 0rem; */
+}
+.fashion .items p{
+    padding-left: 0.5rem;
+}
+.background-img{
+    height: 100%;
+    width: 100%;
+    /* background-image: url(/assests/Screenshot\ 2024-06-29\ 210754.png); */
+    background-size: cover;
+}
+.new-main{
+    height: 100%;
+    margin: 0 1rem 0 1rem;
+    overflow: auto;
+    background-color: #EAEAEA;
+}
+.products{
+    height: 100%;
+    width: 100%;
+    /* background-color: rebeccapurple; */
+    margin: 1rem 1rem 0 1rem;
+    display: flex;
+
+}
+.card{
+    height: 390px;
+    width: 300px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+}
+.elements{
+    height: 100%;
+    width: 100%;
+    margin: 1.5rem;
+}
+.elements img{
+    height: 121px;
+    width: 121px;
+}
+.elements .ancar{
+    margin-top: 1.5rem;
+}
+.ass{
+    height: 3rem;
+    width: 100%;
+}
+.ancar a{
+    text-decoration: none;
+    font-size: 0.9rem;
+    color: rgba(24, 24, 239, 0.586);
+    font-weight: 500;
+}
+.ancar a:hover{
+    color: purple;
+}
+.elements p{
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+.last-border{
+    height: 200px;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+}
+.sign-up{
+    height: 70%;
+    width: 100%;
+    /* margin: 2rem; */
+    border-top: 1px  solid #ede6e6;
+    border-bottom: 1px solid #EAEAEA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.sign-up .para{
+    font-size:0.8rem ;
+    opacity: 0.8;
+    margin:0.5rem 0 0.5rem 0 ;
+}
+.para a{
+    text-decoration: none;
+    color: rgba(0, 0, 255, 0.775);
+    opacity: 0.9;
+}
+.para a:hover{
+    color: purple;
+}
+.sign-up-button{
+   padding: 0.3rem 5.22rem 0.3rem 5.22rem;
+   border-radius: 5px;
+   border: none;
+   background: rgb(255,217,120);
+   background: linear-gradient(180deg, rgba(255,217,120,1) 38%, rgba(255,201,65,1) 42%);
+   border: 1px solid 	#ff9900;
+   font-weight: 500;
+   cursor: pointer;
+}
+.foot{
+    height: 810px;
+    width: 100%;
+    background-color: #131921;
+}
+.back-top{
+    height: 7%;
+    width: 100%;
+    background-color: #37475A;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+.back-top:hover{
+    background-color: #485769;
+}
+.under-backtop{
+    height: 60%;
+    width: 100%;
+    background-color: #232F3E;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.under-backtop-element{
+    height: 500px;
+    width: 180px;
+    margin: 2.22rem;
+}
+.under-backtop-element li{
+    margin-top: 0.5rem;
+}
+.under-backtop-element li a{
+    text-decoration: none;
+    color: white;
+    opacity: 0.7;
+    font-size: 0.8rem;
+}
+.under-backtop-element li a:hover{
+    text-decoration: underline;
+}
+.under-backtop-element h2{
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+.new{
+    display: flex;
+    height: 700%;
+    width: 100%;
+    justify-content: center;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.295);
+}
+.last-backtop{
+    height: 63%;
+    width: 100%;
+    background-color: #131921;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+.last-backtop-div{
+    color: white;
+    width: 130px;
+    margin: 0 2.5rem 3rem 2.5rem;
+}
+
+.div-one h5{
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+.div-one p{
+    font-size: 0.75rem;
+    opacity: 0.6;
+}
+.div-two p{
+    font-size: 0.75rem;
+    opacity: 0.6;
+}
+.div-one{
+    margin-top: 2rem;
+    cursor: pointer;
+}
+.div-two{
+    margin-top: 2rem;
+    cursor: pointer;
+}
+.div-two h5{
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+.div-one:hover{
+    text-decoration: underline;
+}
+.div-two:hover{
+    text-decoration: underline;
+}
